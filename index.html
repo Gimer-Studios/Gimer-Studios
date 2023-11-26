@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimers Studios</title>
+    <title>Gimers Studios - Home</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #17b5c1; /* Updated color code */
+            background-color: #17b5c1;
             color: #ffffff;
         }
 
@@ -56,11 +56,11 @@
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#plugins">Plugins</a>
-        <a href="#mods">Mods</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="plugins.html">Plugins</a>
+        <a href="mods.html">Mods</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <section id="home">
@@ -68,50 +68,9 @@
         <p>I do things because I can.</p>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Learn more about my passion.</p>
-    </section>
-
-    <section id="plugins">
-        <h2>Our Plugins</h2>
-        <p>Explore our collection of Minecraft plugins</p>
-    </section>
-
-    <section id="mods">
-        <h2>Mods</h2>
-        <p>Stay tuned for exciting Minecraft mods coming soon!</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or need support? Reach out to me!</p>
-    </section>
-
     <footer>
         <p>&copy; 2023 Gimers Studios. All rights reserved.</p>
     </footer>
-    <script>
-    // Function to smoothly scroll to a section when a navigation link is clicked
-    function scrollToSection(sectionId) {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            window.scrollTo({
-                top: section.offsetTop,
-                behavior: 'smooth'
-            });
-        }
-    }
-
-    // Attach click event listeners to each navigation link
-    document.querySelectorAll('nav a').forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const sectionId = this.getAttribute('href').substring(1);
-            scrollToSection(sectionId);
-        });
-    });
-</script>
 </body>
 
 </html>
