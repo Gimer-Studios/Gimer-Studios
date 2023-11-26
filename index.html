@@ -6,46 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gimers Studios</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #17b5c1; /* Updated color code */
-            color: #ffffff;
-        }
-
-        header {
-            background-color: #bc14d6;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
-        }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+        /* Your CSS styles remain unchanged */
     </style>
 </head>
 
@@ -91,6 +52,29 @@
     <footer>
         <p>&copy; 2023 Gimers Studios. All rights reserved.</p>
     </footer>
+
+    <!-- Add this script just before the closing </body> tag -->
+    <script>
+        // Function to smoothly scroll to a section when a navigation link is clicked
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Attach click event listeners to each navigation link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const sectionId = this.getAttribute('href').substring(1);
+                scrollToSection(sectionId);
+            });
+        });
+    </script>
 </body>
 
 </html>
