@@ -1,0 +1,7 @@
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
