@@ -45,21 +45,21 @@ ul {
 
 header {
     background-color: #bc14d6;
-    color: #ffffff;
+    color: #17b5c1; /* Updated color to aqua */
     padding: 20px;
     text-align: center;
-    border-bottom: 5px solid #333; /* Add a border to separate the header */
+    border-bottom: 5px solid #333;
 }
 
 header h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header p {
     font-size: 1.2em;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow for better visibility */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 /* Navigation styles */
 nav {
