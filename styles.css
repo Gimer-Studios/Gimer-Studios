@@ -49,6 +49,7 @@ header {
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    border-bottom: 5px solid #333; /* Add a border to separate the header */
 }
 
 header h1 {
