@@ -54,11 +54,13 @@ header {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
+    color: #17b5c1; /* Updated color to aqua */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header p {
     font-size: 1.2em;
+    color: #17b5c1; /* Updated color to aqua */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 /* Navigation styles */
