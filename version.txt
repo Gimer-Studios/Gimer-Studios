@@ -1,2 +1,2 @@
-version=1.4
+version=1.5
 download_url=https://gimer-studios.github.io/Gimer-Studios/GimerServerTools-1.4.jar
