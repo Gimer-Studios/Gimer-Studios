@@ -1,0 +1,2 @@
+version=1.6
+download_url=http://your-server.com/your-plugin.jar
