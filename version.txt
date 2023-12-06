@@ -1,2 +1,2 @@
 version=1.6
-download_url=http://your-server.com/your-plugin.jar
+download_url=https:https://gimer-studios.github.io/Gimer-Studios/GimerServerTools-1.4.jar
