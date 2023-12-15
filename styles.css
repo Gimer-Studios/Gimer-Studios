@@ -127,3 +127,9 @@ footer {
 .plugin a:hover {
     background-color: #333;
 }
+.blog-date {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777; /* Adjust color to your preference */
+}
