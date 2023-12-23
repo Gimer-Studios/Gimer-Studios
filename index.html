@@ -1,201 +1,108 @@
-<form class="main-container">
+<!DOCTYPE html>
+<html lang="en">
 
-  <header class="div">
-    <div class="div-2">
-      <div class="div-3">
-        <span style="font-weight: 900">Gimer</span> <br />
-        <span style="font-weight: 900; color: rgba(0, 238, 255, 1)">Studios</span>
-      </div>
-      <nav class="div-4">
-        <a href="#" class="div-5">Home</a>
-        <div class="div-6">
-          <a href="#" class="div-7" aria-label="About">About</a>
-          <a href="#" class="div-8" aria-label="About">About</a>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-06KMP75LDM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-06KMP75LDM');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimer Studios - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #17b5c1;
+            color: #ffffff;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background-color: #bc14d6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .discord-link {
+            position: fixed;
+            bottom: 10px; 
+            right: 10px; 
+            font-size: 0.8em;
+            padding: 5px;
+        }
+        .discord-link a {
+        color: #bc14d6;
+        text-decoration: none;
+        font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="fade-in">
+    <header>
+        <h1>Gimer Studios</h1>
+        <p>Creating things because why not.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="plugins.html">Plugins</a>
+        <a href="mods.html">Mods</a>
+        <a href="contact.html">Contact</a>
+        <a href="blogs.html">Blogs</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Gimer Studios</h2>
+        <p>Hi! I make things such as plugins for fun. If you want to support, please download my plugins.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Gimer Studios. All rights reserved.</p>
+        <div class="discord-link">
+            <p>Join our Discord community: <a href="https://discord.gg/XvpMTNMeAU" target="_blank">Discord Invite</a></p>
         </div>
-        <div class="div-9">
-          <a href="#" class="div-10" aria-label="Plugins">Plugins</a>
-          <a href="#" class="div-11" aria-label="Mods">Mods</a>
-          <a href="#" class="div-12" aria-label="Contact">Contact</a>
-          <a href="#" class="div-13" aria-label="Blogs">Blogs</a>
-        </div>
-      </nav>
-    </div>
-    <p class="div-14">Welcome to Gimer Studios <br /> Hi! I create things such as plugins for fun. If you want to support me, please download my plugins.</p>
-    <div class="div-15">© 2023 Gimer Studios. All rights reserved</div>
-  </header>
+    </footer>
 
-</form>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.body.classList.add('active');
+        });
+    </script>
+</body>
 
-<style>
-  .main-container {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  header.div {
-    background-color: #222121;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 23px 80px 23px 34px;
-  }
-
-  @media (max-width: 991px) {
-    header.div {
-      max-width: 100%;
-      padding: 0 20px;
-    }
-  }
-
-  .div-3 {
-    color: #0ef;
-    align-self: start;
-    max-width: 752px;
-    font: 400 60px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-3 {
-      max-width: 100%;
-      font-size: 40px;
-    }
-  }
-
-  nav.div-4 {
-    align-self: start;
-    display: flex;
-    margin-top: 42px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-  }
-
-  @media (max-width: 991px) {
-    nav.div-4 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      margin-top: 40px;
-    }
-  }
-
-  .div-5 {
-    color: #bc14d6;
-    align-self: stretch;
-    flex-grow: 1;
-    white-space: nowrap;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-5 {
-      white-space: initial;
-    }
-  }
-
-  .div-6 {
-    display: flex;
-    gap: 0px;
-    margin: auto 0;
-  }
-
-  .div-7 {
-    color: #0ef;
-    z-index: 1;
-    flex-grow: 1;
-    white-space: nowrap;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-7 {
-      white-space: initial;
-    }
-  }
-
-  .div-8 {
-    color: #0ef;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  .div-9 {
-    align-self: stretch;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 19px;
-  }
-
-  .div-10 {
-    color: #bc14d6;
-    align-self: start;
-    margin-top: 4px;
-    flex-grow: 1;
-    white-space: nowrap;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-10 {
-      white-space: initial;
-    }
-  }
-
-  .div-11 {
-    color: #0ef;
-    align-self: center;
-    margin: auto 0;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  .div-12 {
-    color: #bc14d6;
-    align-self: center;
-    margin: auto 0;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  .div-13 {
-    color: #0ef;
-    align-self: stretch;
-    flex-grow: 1;
-    white-space: nowrap;
-    font: 400 20px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-13 {
-      white-space: initial;
-    }
-  }
-
-  .div-14 {
-    color: #b2b7b8;
-    align-self: start;
-    margin-top: 40px;
-    max-width: 752px;
-    font: 400 30px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-14 {
-      max-width: 100%;
-    }
-  }
-
-  .div-15 {
-    color: #000;
-    align-self: center;
-    margin-top: 410px;
-    white-space: nowrap;
-    font: 400 15px Inter, sans-serif;
-  }
-
-  @media (max-width: 991px) {
-    .div-15 {
-      margin-top: 40px;
-      white-space: initial;
-    }
-  }
-</style>
+</html>
