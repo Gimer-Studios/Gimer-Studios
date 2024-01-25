@@ -1,2 +1,2 @@
-version=2.1
+version=2.2
 download_url=https://www.spigotmc.org/resources/gimer-server-tools.113636/
