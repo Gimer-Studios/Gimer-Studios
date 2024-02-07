@@ -5,7 +5,7 @@ Don't judge me i'm just lazy.
 - HMU if you have anything you think I could help with our want me to collab on.
 - 📫 How to reach me-
 Discord: mincraftgimer
-- To sum it up. I code in Java.
+- To sum it up. I code in Java ☕︎.
 - Website shoutout- https://gimerstudios.com/
 
 <!---
