@@ -5,7 +5,8 @@ Don't judge me i'm just lazy.
 - Hit me up if you have anything you think I could help with or want me to collab on.
 - 📫 How to reach me-
 Discord: mincraftgimer
-- To sum it up. I code in Java ☕︎.
+- To sum it up. I enjoy coding.
+- Java is my main language.
 - Website shoutout- https://gimerstudios.com/
 - Stay productive. Cause one day you won't be able to.
 
