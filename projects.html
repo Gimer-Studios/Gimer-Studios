@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="icon" href="GimerStudiosLogo.png">
-    
+    <link rel="icon" href="GimerStudiosLogo.png">
+
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-06KMP75LDM"></script>
     <script>
@@ -13,7 +13,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimer Studios - Mods</title>
+    <title>Gimer Studios - Projects</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -25,49 +25,48 @@
             padding-bottom: 50px;
         }
 
-        header {
-            background-color: #bc14d6;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
-        }
-
-        nav a {
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #17b5c1;
             color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
         }
 
-        section {
+        main {
+            padding: 40px;
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+            border: 2px solid #bc14d6;
+            border-radius: 10px;
             padding: 20px;
         }
 
+        .blog-title {
+            font-size: 2em;
+            color: #bc14d6;
+        }
+
+        .blog-content {
+            color: #555;
+            margin-top: 10px;
+        }
         footer {
             background-color: #333;
             color: #ffffff;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
         }
         .discord-link {
-            position: fixed;
-            bottom: 10px; 
-            right: 10px; 
             font-size: 0.8em;
             padding: 5px;
         }
         .discord-link a {
-        color: #bc14d6;
-        text-decoration: none;
-        font-weight: bold;
+            color: #bc14d6;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -77,7 +76,6 @@
         <h1>Gimer Studios</h1>
         <p>Creating things because why not.</p>
     </header>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -88,24 +86,40 @@
         <a href="Freelance.html">Freelance</a>
         <a href="projects.html">Projects</a>
     </nav>
-
-    <section id="mods">
-        <h2>Mods</h2>
-        <p>Oh hi. This page is just here just in case.</p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects we've been working on:</p>
+        <div class="project">
+            <h3>Gimer Server Tools</h3>
+            <p>A spigot plugin to help you run your server.</p>
+        </div>
+        <div class="project">
+            <h3>Feed Me</h3>
+            <p>A simple spigot plugin that allows you to feed other players.</p>
+        </div>
+        <div class="project">
+            <h3>Gimer Reminder App</h3>
+            <p>A reminder app WIP.</p>
+        </div>
+        <div class="project">
+            <h3>Gimer Server Manager</h3>
+            <p>A project that has not been made public but will soon (Take this with a grain of salt).</p>
+        </div>
+        <div class="project">
+            <h3>Gimer Studios Website Redesign</h3>
+            <p>Working on a new design for the Official Gimer Studios Website WIP.</p>
+        </div>
     </section>
-
     <footer>
         <p>&copy; 2024 Gimer Studios. All rights reserved.</p>
         <div class="discord-link">
             <p>Join our Discord community: <a href="https://discord.gg/XvpMTNMeAU" target="_blank">Discord Invite</a></p>
         </div>
     </footer>
-
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             document.body.classList.add('active');
         });
     </script>
 </body>
-
 </html>
