@@ -43,7 +43,7 @@ I'm a passionate software developer who loves creating new and interesting thing
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" width="48" height="48" alt="Rust" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" width="48" height="48" alt="Rust" />
       <br>Rust
     </td>
     <td align="center" width="96">
@@ -73,7 +73,7 @@ I'm a passionate software developer who loves creating new and interesting thing
       <br>Maven
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="48" height="48" alt="Gradle" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-plain.svg" width="48" height="48" alt="Gradle" />
       <br>Gradle
     </td>
   </tr>
