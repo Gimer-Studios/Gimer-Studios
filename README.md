@@ -69,11 +69,11 @@ I'm a passionate software developer who loves creating new and interesting thing
       <br>CSS
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="48" height="48" alt="Maven" />
+      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" width="48" height="48" alt="Maven" />
       <br>Maven
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="48" height="48" alt="Gradle" />
+      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/gradle/gradle-original.svg" width="48" height="48" alt="Gradle" />
       <br>Gradle
     </td>
   </tr>
