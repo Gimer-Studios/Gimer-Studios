@@ -59,6 +59,24 @@ I'm a passionate software developer who loves creating new and interesting thing
       <br>Windows
     </td>
   </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML" />
+      <br>HTML
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS" />
+      <br>CSS
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="48" height="48" alt="Maven" />
+      <br>Maven
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="48" height="48" alt="Gradle" />
+      <br>Gradle
+    </td>
+  </tr>
 </table>
 
 ---
@@ -66,4 +84,3 @@ I'm a passionate software developer who loves creating new and interesting thing
 ## 📫 How to reach me
 - **Email**: [gimerstudios@gmail.com](mailto:gimerstudios@gmail.com)
 - **Discord**: [Gimer Studios Discord Server](https://discord.gg/r6XazGtKg7)
-
