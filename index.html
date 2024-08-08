@@ -1,98 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-    <link rel="icon" href="GimerStudiosLogo.png">
-
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-06KMP75LDM"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-06KMP75LDM');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gimer Studios - Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #17b5c1;
-            color: #ffffff;
-            padding-bottom: 50px;
-        }
-
-        header {
-            background-color: #bc14d6;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-            padding: 10px;
-        }
-
-        nav a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #ffffff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .discord-link {
-            position: fixed;
-            bottom: 10px; 
-            right: 10px; 
-            font-size: 0.8em;
-            padding: 5px;
-        }
-        .discord-link a {
-        color: #bc14d6;
-        text-decoration: none;
-        font-weight: bold;
-        }
-    </style>
-</head>
-
-<body class="fade-in">
-    <header>
-        <h1>Gimer Studios</h1>
-        <p>Creating things because why not.</p>
-    </header>
-
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="plugins.html">Plugins</a>
-        <a href="mods.html">Mods</a>
-        <a href="contact.html">Contact</a>
-        <a href="blogs.html">Blogs</a>
-        <a href="Freelance.html">Freelance</a>
-        <a href="projects.html">Projects</a>
-    </nav>
-
-    <section id="home">
-        <h2>Welcome to Gimer Studios</h2>
-        <p>Hi! I make things such as plugins for fun.</p>
-        <h3>Portfolio</h3>
+<!-- index.html --> 
+<!-- {{title => Home}} -->
+<section id="home" class="p-8 flex-grow">
+    <h2 class="text-2xl font-bold mb-4">Welcome to Gimer Studios</h2>
+    <p class="mb-4">Hi! I make things such as plugins for fun.</p>
+    <h3 class="text-xl font-semibold mb-2">Portfolio</h3>
+    <ul class="list-disc list-inside space-y-1">
         <li>Experience with Java</li>
         <li>Experience with basic docker</li>
         <li>Experience with basic python</li>
@@ -105,20 +17,6 @@
         <li>Experience using Kanban Boards.</li>
         <li>Experience using Git.</li>
         <li>Experience using Webhooks.</li>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Gimer Studios. All rights reserved.</p>
-        <div class="discord-link">
-            <p>Join our Discord community: <a href="https://discord.gg/XvpMTNMeAU" target="_blank">Discord Invite</a></p>
-        </div>
-    </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            document.body.classList.add('active');
-        });
-    </script>
-</body>
-
-</html>
+    </ul>
+</section>
+<script src="utils/templating.js"></script>
