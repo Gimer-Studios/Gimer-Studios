@@ -6,7 +6,11 @@
 I'm a passionate software developer who loves creating new and interesting things, building solutions, and helping others. Check out my work below!
 
 ---
-
+## 👁️ GitHub Account Views
+    <div align="center">
+        <img src="https://profile-counter.glitch.me/gimerstudios/count.svg?"  />
+      </div>
+---
 ## 🏆 GitHub Achievements and Stars
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Gimer-Studios&show_icons=true&theme=radical)
 
@@ -43,7 +47,7 @@ I'm a passionate software developer who loves creating new and interesting thing
   </tr>
   <tr>
     <td align="center" width="96">
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/rust/rust-original.svg" width="48" height="48" alt="Rust" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" width="48" height="48" alt="Rust" />
       <br>Rust
     </td>
     <td align="center" width="96">
@@ -57,34 +61,6 @@ I'm a passionate software developer who loves creating new and interesting thing
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="48" height="48" alt="Windows" />
       <br>Windows
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML" />
-      <br>HTML
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS" />
-      <br>CSS
-    </td>
-    <td align="center" width="96">
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" width="48" height="48" alt="Maven" />
-      <br>Maven
-    </td>
-    <td align="center" width="96">
-      <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/gradle/gradle-original.svg" width="48" height="48" alt="Gradle" />
-      <br>Gradle
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="48" height="48" alt="C#" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" />
-      <br>C++
     </td>
   </tr>
 </table>
