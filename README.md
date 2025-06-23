@@ -44,10 +44,6 @@ I'm a passionate software developer who loves creating new and interesting thing
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" />
       <br>Docker
     </td>
-    <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="48" height="48" alt="Kubernetes" />
-      <br>Kubernetes
-    </td>
   </tr>
   <tr>
     <td align="center" width="96">
