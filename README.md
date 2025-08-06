@@ -12,14 +12,6 @@ I'm a passionate software developer who loves creating new and interesting thing
 
 ---
 
-## 👀 Profile Views
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/gimerstudios/count.svg?"  />
-</div>
-
----
-
 ## 🚀 Programming Languages and Tools
 
 <table>
